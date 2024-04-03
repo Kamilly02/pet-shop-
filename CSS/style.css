@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    *{ /*o asterisco é tudo*/
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;/**/
+    }
+
+    header{
+    height: 210px;
+    background-color: rgb(253, 231, 191);
+    display: flex;  /*cada informação para seu lado */
+    justify-content: space-between; /*cada informação para seu lado */
+    align-items: center; /* tudo fica no centro*/
+    padding: 20px; /*espaçamento dentro da caixa*/
+    
+    }
+    header i{  
+    cursor: pointer; /*Quando coloca a setinha encima altera para a mãozinha */
+    box-shadow: rgb(0, 0, 0); /*(sombra do hamburgue) */
+    transition: 1s /*segundos para abrir o quadrado do hamburguer*/
+
+    }
+
+    h1{ 
+    background-color:  rgb(253, 231, 191) ;
+    text-align: center;
+    font-family: "roboro", sans-serif;
+    margin: 50px;
+    color: brown;
+    }
+
+    /*texte-aling modifica a centralização do titulo*/
+
+    header ul{
+    display: flex; /*escritas uma do lado da outra*/
+    list-style: none;; /*sai do modo de lista e um fica do lado do outro */
+    gap: 20px; /*espaçamento entre os elementos */
+    color:black;
+    }
+
+    h2{
+    background-color:  rgb(253, 231, 191);
+    text-align: center;
+    font-family: "roboro", sans-serif;
+    margin: 50px;
+    color: brown;
+  
+
+    }
+
+    p{
+    text-align:center;
+    font-family: "roboto", sans-serif;
+    font-size:17px;
+    }
+
+    .logo{width: 744%;}
+
+    #imgpet {
+        width: 100%;
+        margin: 10px;
+        display:flex;
+        justify-content: center;
+     
+      
+    }
+
+    #imgpet img{ 
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+        border-radius:5%;
+        margin: 10px
+
+    }
+
+    .chatbot{ /* esse é botão que fica no final da tela*/
+        background-color: rgb(255, 153, 28);
+        background: -o-linear-gradient(rgb(235, 243, 21));
+        border: 1px solid; /* Esse colocar borda*/ 
+        border-radius: 50%; /* Esse serve para arredonar as bordas*/
+        width: 50px;
+        height: 50px;
+        position: flex;
+        right: 2cm;
+        bottom: 2%;
+        box-shadow:2px 2px 2px; /* Esse serve para colocar sombra*/
+        cursor: pointer;
+    }
+
+/* Quando for conectar div no css colocar "." */ 
+/* Para trabalhar com css: tem que selecionar o elemento que vc vai trabalhar e o valor*/
+/* Sempre para fechar um comando no css adicionar ; para entender que o comando acaba/*
+/*box-sizing: é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras e alturas*/
